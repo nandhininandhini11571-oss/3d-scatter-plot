@@ -209,3 +209,23 @@ canvas {
     min-width: 100px;
   }
 }
+.author {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #6ab0ff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(106, 176, 255, 0.5);
+    z-index: 1000;
+}
+
+.author strong {
+    color: #6ab0ff;
+    font-size: 25px;
+}
